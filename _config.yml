@@ -1,9 +1,9 @@
 # Site settings
-title: PHOTORAMA
+title: JEAN-CV
 email: ""
-description: "Photo Journal"
-url: "http://sunbliss.github.io"
-baseurl: "/photorama"
+description: "JEAN-TI"
+url: "http://olivermag.github.io"
+baseurl: "/PJTest"
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "http://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "http://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "http://sunbliss.github.io/photorama/about/"
+  - GALLERY: "http://olivermag.github.io/PJTest/gallery/"
+  - JOURNAL: "http://olivermag.github.io/PJTest/journal/"
+  - ABOUT: "http://olivermag.github.io/PJTest/about/"
 
 # All translation keys
 translations:
@@ -56,7 +56,7 @@ paginate_path: "/journal/page:num/"
 permalink: "/journal/:title/"
 categories_path: "/journal/category/"
 tags_path: "/journal/tag/"
-gems: 
+gems:
  - jekyll-paginate
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
